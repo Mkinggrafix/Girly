@@ -1,0 +1,18 @@
+$primary-color: #ff95a7;
+$dark-color: #f4f4f4;
+$light-color: #818181;
+$global: 10px 50px;
+$bg-color: #e7e7e7;
+
+%background{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0 0 50px;
+}
+
+%transition{
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}

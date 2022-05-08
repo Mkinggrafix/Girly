@@ -1,0 +1,86 @@
+.form{
+    width: 306px;
+    padding: 0;
+    margin: 0;
+    border: 3px solid $bg-color;
+    border-radius: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: none;
+    animation-name: form;
+    animation-duration: 1000ms;
+
+    img{
+        width: 20px;
+    }
+
+    &-container{
+        background-color: $primary-color;
+        height: 50vh;
+        width: 300px;
+        padding: 0 20px;
+    }
+
+    .form-close-btn{
+        position: relative;
+        top: 10px;
+        left: 250px;
+        cursor: pointer;
+    }
+
+    h3{
+        text-align: center;
+        font-size: 15px;
+        font-weight: 0;
+        padding-top: 35px;
+        padding-bottom: 20px;
+    }
+
+    p{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    input{
+        width: 100%;
+        background-color: $primary-color;
+        font-size: 12px;
+        color: #fff;
+        border: 0;
+        border-bottom: 1px solid #fff;
+        padding: 5px;
+        margin-bottom: 15px;
+    }
+
+    a{
+        color: #fff;
+        text-decoration: underline;
+    }
+}
+
+@keyframes form {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.footer-input{
+    width: 250px;
+    padding: 8px 5px;
+    margin: 10px 0;
+    border: 2px solid #000;
+    background-color: $bg-color;
+    color: $light-color;
+    border-radius: 2px;
+}
+
+.error{
+    font-size: 12px;
+    background-color: #fff;
+    color: $primary-color;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
