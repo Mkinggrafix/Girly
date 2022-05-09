@@ -183,7 +183,9 @@
         padding: 40px 30px;
         text-align: center;
         color: #000;
-        height: 100vh;
+        height: 100%;
+        overflow: hidden;
+
 
         h3{
             font-size: 40px;
