@@ -1,4 +1,9 @@
-.display-screen-one, .display-screen-two, .display-screen-three, .display-screen-four, .display-screen-five, .display-screen-six{
+.display-screen-one, 
+.display-screen-two, 
+.display-screen-three, 
+.display-screen-four, 
+.display-screen-five, 
+.display-screen-six{
     background-color: rgba(34, 34, 34, 0.9);
     height: 100%;
     width: 100%;
@@ -16,7 +21,12 @@
     top: 32vh;
 }
 
-.close-btn-one, .close-btn-two, .close-btn-three, .close-btn-four, .close-btn-five, .close-btn-six{
+.close-btn-one, 
+.close-btn-two, 
+.close-btn-three, 
+.close-btn-four, 
+.close-btn-five, 
+.close-btn-six{
     width: 30px;
     position: absolute;
     top: 30px;

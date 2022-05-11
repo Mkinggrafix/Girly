@@ -11,6 +11,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        position: fixed;
+        z-index: 1;
 
         img{
             width: 100px;
@@ -41,6 +43,11 @@
             margin: 0 2px;
             border-radius: 2px;
             cursor: pointer;
+
+            &:hover{
+                background-color: #000;
+                color: $primary-color;
+            }
         }
     }
 
@@ -72,6 +79,7 @@
             width: 150px;
             padding: 15px;
             border-radius: 5px;
+            box-shadow: 3px 3px 7px #000;
 
             &:hover{
                 background-color: $light-color;
@@ -95,8 +103,14 @@
             @extend %transition;
 
             &:hover{
-                font-size: 30px;
                 color: $primary-color;
+            }
+        }
+
+        li{
+            @extend %transition;
+            &:hover{
+                transform: scaleX(90%);
             }
         }
     }
@@ -210,7 +224,7 @@
             height: 240px;
             border: 7px solid $bg-color;
             border-radius: 5px;
-            margin: 5px;
+            margin: 10px;
             cursor: pointer;
         }
     }
