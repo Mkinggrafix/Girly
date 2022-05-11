@@ -14,11 +14,10 @@
 }
 
 .display-images{
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    top: 32vh;
 }
 
 .close-btn-one, 
