@@ -23,6 +23,10 @@
         align-items: center;
         justify-content: center;
 
+        &-content{
+            display: flex;
+        }
+
         input{
             width: 800px;
             padding: 10px 8px;
@@ -82,6 +86,7 @@
         @extend %background;
         display: flex;
         justify-content: flex-end;
+        padding-top: 250px;
         padding-right: 300px;
         line-height: 1.5;
 
@@ -90,7 +95,7 @@
             @extend %transition;
 
             &:hover{
-                font-size: 20px;
+                font-size: 30px;
                 color: $primary-color;
             }
         }
@@ -144,7 +149,10 @@
 
         &-left{
             background-color: $primary-color;
-            padding: 240px 0 0 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 50px;
 
             h1{
                 font-size: 50px;
